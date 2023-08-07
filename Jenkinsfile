@@ -6,7 +6,8 @@ try{
         // for display purposes
         // Get some code from a GitHub repository
         git url: 'https://github.com/musamakhan201/Testing.git',
-            credentialsId: 'musamakhan201',
+            username: 'musamakhan201',
+            password: @Password4875
             branch: 'main'
      }
     stage('Build docker') {
